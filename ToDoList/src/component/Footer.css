@@ -1,0 +1,27 @@
+/* Footer Css */
+
+.pagination {
+    margin-left: auto;
+    margin-right: 20px; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.pagination button {
+    background-color: rgb(41, 164, 180); 
+    border: none;
+    padding: 10px 15px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.pagination button:hover {
+    background-color: rgb(128, 211, 228); 
+}
+
+.pagination button:disabled {
+    background-color: lightgray; 
+    cursor: not-allowed; 
+}

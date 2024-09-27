@@ -1,0 +1,43 @@
+/* TaskList.css */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling for small screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure borders don't double up */
+    margin-top: 20px; /* Space between search and table */
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Add borders to table cells */
+    padding: 10px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #e0e0e0; /* Slightly darker background for headers */
+}
+
+tbody tr {
+    transition: background-color 0.3s; /* Add a transition effect for hover */
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9; /* Change background on hover */
+}
+
+tbody tr + tr {
+    border-top: 1px solid #ccc; /* Add a line between rows */
+}
+
+.actions {
+    display: flex;
+    gap: 10px; /* Space between action buttons */
+}
